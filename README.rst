@@ -1,6 +1,6 @@
-#######################
+############################
  GateIn Groovy tool README
-#######################
+############################
 
 This command line tool is a simple script to simplify the deployment of groovy REST service in the portal GateIn.
 It is using the available REST API of GateIn.
@@ -26,7 +26,7 @@ lsgroovy                     : List the groovy files on the server
 </pre>
 
 Known limitation
-===============
+=================
 
 * Only the root directory is synchronized
 * If file are locally removed they are not removed on the server and need to be removed with the delete command
