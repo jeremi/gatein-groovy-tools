@@ -196,8 +196,8 @@ def _createDirectory(directory) {
 def usage() {
   print """  usage: exo.groovy action [args]
   actions:                    
-    update                       : Update the eXo server with the code
-    autoupdate                   : Update the server everytime that a file is modified or added
+    update                       : Update the GateIn server with the code
+    autoupdate                   : Update the server every-time a file is modified or added
     autoload <filename> [--off]  : Activate the autoload for the given file
     delete <filename>            : Delete the given file
     get <filename>               : Print on the standard output the content of the given file on the server
