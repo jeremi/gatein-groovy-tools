@@ -29,4 +29,4 @@ Known limitation
 =================
 
 * Only the root directory is synchronized
-* If file are locally removed they are not removed on the server and need to be removed with the delete command
+* If files are removed locally, they are not removed on the server. You need to remove them with the delete command manually
