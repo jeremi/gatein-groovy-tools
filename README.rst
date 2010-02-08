@@ -15,15 +15,13 @@ Using it
 ========
 
 * Copy the app.conf of the demo in your project and adapt it to your need.
-* This are the command available:
-<pre>
-update                       : Update the GateIn server with the code
-autoupdate                   : Update the server every-time a file is modified or added
-autoload <filename> [--off]  : Activate (or deactivate) the autoload for the given file
-delete <filename>            : Delete the given file
-get <filename>               : Print on the standard output the content of the given file on the server
-lsgroovy                     : List the groovy files on the server
-</pre>
+* This are the command available::
+  update                       : Update the GateIn server with the code
+  autoupdate                   : Update the server every-time a file is modified or added
+  autoload <filename> [--off]  : Activate (or deactivate) the autoload for the given file
+  delete <filename>            : Delete the given file
+  get <filename>               : Print on the standard output the content of the given file on the server
+  lsgroovy                     : List the groovy files on the server
 
 Known limitation
 =================
