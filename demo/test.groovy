@@ -8,6 +8,6 @@ public class HelloWorld {
   @GET
   @Path("helloworld/{name}")
   public String hello(@PathParam("name") String name) {
-    return "Hello " + name
+    return "Hello $name\n"
   }
 }
